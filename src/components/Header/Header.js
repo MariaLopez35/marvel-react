@@ -3,6 +3,7 @@ import './Header.scss';
 import { Menu } from 'semantic-ui-react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
+
 export default function Header() {
     const location = useLocation();
     const currentPath = location.pathname.replace("/", "");
